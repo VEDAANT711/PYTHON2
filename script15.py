@@ -78,6 +78,8 @@ Toyota = Vehicle("suv","Fortuner")
 
 print(Volkswagen.type,Volkswagen.model)
 print(Toyota.type,Toyota.model)
+Volkswagen.start()
+Volkswagen.stop()
 
 
 
