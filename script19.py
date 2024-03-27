@@ -51,20 +51,19 @@ ved.displayname()
 class Calcu:
     
   def add (self, a = None, b = None, c = None, d = None):
-    if(a != None and b != None and c != None and d != None):
+    if a != None and b != None and c != None and d != None :
         print(a+b+c+d)
-    elif(a != None and b != None and c != None):
+    elif a != None and b != None and c != None :
         print(a+b+c)
-    elif(a != None and b != None):
+    elif a != None and b != None :
         print(a+b)
 
 
-cal = Calcu ()      
-Calcu.add(44,56,78,34)
-Calcu.add(34,33,43)
-Calcu.add(23,44)
-Calcu.add(23)
-     
+a = Calcu()      
+a.add(44,56)
+a.add(34,33,43)
+a.add(23,44,44,78)
+
 
 
 
