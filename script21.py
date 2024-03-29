@@ -84,29 +84,37 @@ a = SBI()
 a.loan()
 a.save()
 
-# class WorkBank:
-#     def loan(self):
-#         print("I am loan from WB")
-#     def save(self):
-#         print('I am save from WB')
 
-# class SBI(WorkBank):
-#     def loan(self):
-#         print("I am loan from SBI")
-#         super().loan()
-#     def save(self):
-#         print('I am save from SBI')
-#         super().loan()
+
+
+
+class Tata:
+    def Engine(self):
+        print("I am Engine from Tata")
+    def Milage(self):
+        print('I am Milage from Tata')
+
+class Punch(Tata):
+    def Engine(self):
+        print("I am Engine from Punch")
+        super().Engine()
+    def Milage(self):
+        print('I am Milage from Punch')
+        super().Milage()
     
 
-# class PNB(WorkBank):
-#     def loan(self):
-#         print("I am loan from SBI")
-#         super().loan()
-#     def save(self):
-#         print('I am save from SBI')
-#         super().save()
+class Harrier(Tata):
+    def Engine(self):
+        print("I am Engine from Harrier")
+        super().Engine()
+    def Milage(self):
+        print('I am Milage from Harrier')
+        super().Milage()
       
-# a = SBI()
-# a.loan()
-# a.save()
+a = Punch()
+a.Engine()
+a.Milage()
+
+b = Harrier()
+b.Engine()
+b.Milage()
