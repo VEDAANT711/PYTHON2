@@ -1,0 +1,43 @@
+# print("Hello")
+# try:
+#     n = ["A","E","I","O","U"]
+#     a = int(input('ENTER A NUMBER ='))
+#     b = int(input('ENTER A NUMBER ='))
+#     print(a/b)
+#     print(n[4])
+# except ArithmeticError:
+#     print("ENTER VALID INPUT !")
+# except IndexError:
+#     print("INVALID INPUT")    
+
+
+
+# try:
+#     names = ["sarika","poorva","shraddha"]
+#     a = int(input('Enter a numberA ='))
+#     b = int(input('Enter the number B = '))
+#     print(a/b)
+#     print(names[2])
+# except ArithmeticError:
+#     print("please enter correct input")
+# except IndexError:
+#     print('please add more values to list')
+
+print("HELLO")
+try:
+    print(32/3)
+except ArithmeticError:
+    print("ARRY GALATA H BRO!")    
+finally:
+    print("this will always execute")  
+    
+
+
+
+
+
+
+
+
+
+

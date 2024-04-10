@@ -138,7 +138,7 @@ class Son(Mother,Father):
     def dislaySname(self):
         print(self.sname + self.lastName)
 
-
+      
 chinmay = Son("shirish","deshpande","chinmay")
 
 

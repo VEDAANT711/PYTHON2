@@ -42,7 +42,7 @@ def call_talk(obj):
     else:
         obj.sound()
         
-
+        
 a = Dog()
 b = Cat()
 c = Cow()

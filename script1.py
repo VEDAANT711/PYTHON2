@@ -29,7 +29,7 @@ e = fourth_name.endswith("u")
 print(e)
 
 
- 
+
 fifth_name = "     adidas      "
 e = fifth_name.lstrip()
 print(e)

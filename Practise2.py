@@ -63,10 +63,7 @@ lista = []
 for x in student:
     q1 = x.removeprefix("gmail.com@")
     lista.append(q1)
-print(lista)    
-
-
-student = 
+print(lista)
 
 
 
