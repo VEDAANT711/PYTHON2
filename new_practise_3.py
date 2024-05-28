@@ -44,24 +44,3 @@ for x in range(x):
 
 for i in country:
     print(country)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
