@@ -12,3 +12,8 @@ print(l1,l2)
 i = "learning TensorFlow"
 i1 = i.replace('TensorFlow','Scitic')
 print(i1)
+
+
+info = ["gaikwadvedant2","gmail.com"]
+i2 = '@'.join(info)
+print(i2)
