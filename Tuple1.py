@@ -104,13 +104,3 @@ print(33 in d)
 
 my_tuple = tuple((1,2,3))
 print(my_tuple)
-
-
-
-
-
-
-
-
-
-

@@ -76,3 +76,33 @@ def addElement(seta):
     return seta
 z = addElement(setA)
 print(z)
+
+
+
+def greet(word):
+    return "hello " + word
+e3 = greet("good morning")
+print(e3)
+
+
+def outer():
+    def inner():
+        print("hello")
+    return inner
+outer() ()
+
+
+# def decorator_function(original_function):
+#     def wrapper_function():
+#         print(" i am before function is called")
+#         original_function():
+#         print(" i am after function is called")
+#     return wrapper_function
+
+# @decorator_function
+# def say_hello():
+#     print("hello")
+# say_hello()    
+
+
+     

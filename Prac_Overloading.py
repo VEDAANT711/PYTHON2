@@ -93,4 +93,3 @@ d.loan()
 d = PNB()
 d.save()
 d.loan()
-
